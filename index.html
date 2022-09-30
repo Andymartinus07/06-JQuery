@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>People</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+<header>
+  <div id="appBar" class="app-bar">
+    <h2>People</h2>
+    <p>Situs Web untuk mencari Aktor/Aktris</p>
+  </div>
+</header>
+<main>
+  <div id="search-container" class="search-container">
+    <input placeholder="Search by people" id="searchElement" type="search">
+    <button id="searchButtonElement" type="submit">Search</button>
+  </div>
+  <div id="PeopleList"></div>
+</main>
+
+<script src="src/script/data/Peoples.js"></script>
+<script src="src/script/data/data-source.js"></script>
+<script src="src/script/view/main.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
